@@ -35,7 +35,6 @@ public class Frame {
         yertle.penDown();
         for(int j=0; j<4; j++){
           for(int i=0; i<8;i++){
-            yertle.forward(2);
             yertle.left(PI/2);
             yertle.forward(12);
             yertle.right(PI/2);
@@ -51,6 +50,7 @@ public class Frame {
             yertle.left(PI/2);
             yertle.forward(8);
             yertle.left(PI/2);
+			yertle.left(2*PI);
             yertle.forward(10);
           }
           yertle.right(PI/2);
@@ -59,7 +59,7 @@ public class Frame {
     
     
     public static void main ( String[] args ) { Frame s = new Frame(); };
-    
+    //Issa bird, issa plane, issa car, issa train
     
 } // GreekKey
 
